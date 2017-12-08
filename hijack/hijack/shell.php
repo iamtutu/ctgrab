@@ -1,6 +1,6 @@
 <?php
 
-$secret="defcon2017";
+$secret="ForwardEverBackwardNever";
 
 if ((!array_key_exists("secret", $_GET)) || ($_GET['secret']!=$secret))
 	die();
